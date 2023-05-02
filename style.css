@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 1340px;     
+    min-height: 100vh; 
+    align-items: center;
+    text-align: center;
+}
+
+/* ======================== Star Main Area ================ */
+
+/* ======================== Star Navbar Area ================ */
+
+#bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    align-items: center;
+}
+
+.nav-btn{
+    padding: 1rem 1.5rem;   
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    cursor: pointer;
+}
+
+/* ======================== End Navbar Area ================ */
+
+/* ======================== Start First Div Area ================ */
+
+.first-h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+    color: hsl(192, 100%, 9%);
+    margin-top: 2rem;
+}
+
+.first-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    margin-top: 1.5rem;
+    color:  hsl(192, 100%, 9%);
+    width: 570px;
+    line-height: 2rem;
+    margin-left: 35rem;
+}
+
+.first-btn{
+    padding: 1rem 1.5rem;   
+    color: hsl(207, 100%, 98%);
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 1px 1px hsl(192, 100%, 9%);
+}
+
+.first-img{
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.first-2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15rem;
+    margin-top: 5rem;
+}
+
+.one{
+    text-align: start;
+    gap: 2rem;
+}
+
+.one-h2{
+    font-weight: 700;
+    font-size: 3rem;
+    font-family: 'Poppins';
+    color: hsl(192, 100%, 9%);
+    margin-top: 1.5rem;
+}
+
+.one-span{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    margin-top: 1.5rem;
+    display: inline-block;
+    color: darkgrey;
+}
+/* ======================== End First Div Area ================ */
+/* ======================== Start Div Area ================ */
+
+#second, #fourth{
+    margin-top: 5rem;
+}
+
+.top, .bottom, .six-img{
+    width: 100%;
+}
+
+.div1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -10px;
+    background-color: hsl(207, 100%, 98%);
+    padding: 1rem 3rem;
+}
+
+#third{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    padding: 1rem 3rem;
+}
+
+.image{
+    width: 40%;
+}
+
+.simple{
+    margin-top: 5rem;
+    padding: 2rem 5rem;
+    text-align: start;
+}
+
+.div-h2{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Open Sans';
+    color: hsl(192, 100%, 9%);
+    margin-top: 1.5rem;
+}
+
+.div-para{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    margin-top: 2rem;
+    color:  hsl(192, 100%, 9%);
+    width: 620px;
+    line-height: 2rem;
+}
+
+#fifth{
+    margin-top: 7rem;
+
+}
+
+.fifth-h2{
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Open Sans';
+    color: hsl(192, 100%, 9%);
+    margin-top: 1.5rem;
+}
+
+.fifth-btn{
+    padding: 1rem 1.5rem;   
+    color: hsl(207, 100%, 98%);
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 1px 1px hsl(192, 100%, 9%);
+}
+
+#sixth{
+    margin-top: 8rem;
+}
+
+.six1{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2rem;
+    text-align: start;
+    justify-content: space-evenly;   
+    background-color: hsl(192, 100%, 9%);    
+    color: hsl(207, 100%, 98%);
+}
+
+
+.info, .news{
+    padding: 5rem;
+}
+
+.six{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.mail-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#mail{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Raleway';
+    color: hsl(192, 100%, 9%);
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid hsl(240, 75%, 98%);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mail-span{
+    color: hsl(0, 100%, 63%);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    display: inline;
+    margin-top: 0.5rem;
+    display: none;
+}
+
+#btn{
+    padding: 1rem 2rem;   
+    color: hsl(207, 100%, 98%);
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(322, 100%, 66%);
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px hsl(192, 100%, 9%);
+}
+
+.info-logo{
+    width: 20%;
+    filter: invert(100%) saturate(0%) brightness(202%) contrast(202%) ;
+}
+
+.info-para, .news-para{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    line-height: 1.5rem;
+    width: 450px;
+    padding-bottom: 2rem;
+}
+
+.info-1{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.social-li:hover{
+    color: hsl(224, 93%, 58%);
+}
+
+#btn:hover, .first-btn:hover, .fifth-btn:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+
+/* ======================== End Div Area ================ */
+
+/* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: hsl(35, 77%, 62%);
+    justify-content: center;
+    background-color: hsl(240, 10%, 16%);
+    padding: 5px;
+  }
+  
+.foot a {
+    color: hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+}
+  
+  
+  /* ======================== End Footer Area ================ */
+  
+  /* ======================== Start Media Querry Area ================ */
+@media screen and (max-width:1375px) {
+    .first-para{
+        margin-left: 24rem;
+    }
+}
+
+@media screen and (max-width:375px) {
+    body{
+        min-width: 375px;
+    }
+
+    #bar{
+        padding: 1rem;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .nav-btn{
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+
+    .first-h1{
+        font-size: 1.5rem;
+        padding: 0rem 3rem;
+        line-height: 2rem;
+    }
+
+    .first-para{
+        margin-left: 0px;
+        width: 350px;
+        padding: 0rem 1rem;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+    }
+
+    .first-2{
+        flex-direction: column;
+        gap: 8rem;
+        align-items: center;
+    }
+
+    .one-span{
+        font-weight: 700;
+    }
+
+    .div1, #third{
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .simple{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .div-h2{
+        font-size: 1.5rem;
+    }
+
+    .div-para{
+        width: auto;
+        font-size: 0.82rem;
+        font-weight: 700;
+    }
+
+    .fifth-h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #second .top{
+        content: url(./images/bg-section-top-mobile-1.svg);
+    }
+
+    #second .bottom{
+        content: url(./images/bg-section-bottom-mobile-1.svg);
+    }
+
+    #fourth .top{
+        content: url(./images/bg-section-top-mobile-2.svg);
+    }
+
+    #fourth .bottom{
+        content: url(./images/bg-section-bottom-mobile-2.svg);
+    }
+
+    .six1{
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .info, .news{
+        padding: 1rem;
+    }
+
+    .info-para, .news-para{
+        width: 320px;
+        font-size: 0.9rem;
+    }
+
+    .six{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #btn{
+        margin-left: 9rem;   
+    }
+}
+
+
+
+  
+  /* ======================== End Media Querry Area ================ */
